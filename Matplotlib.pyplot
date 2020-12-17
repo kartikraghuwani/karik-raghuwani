@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+import numpy as np
+l=['java','c++','Python','C','PHP']
+m=[25,20,35,30,10]
+y=np.arange(0,6)
+plt.bar(l,m)
+plt.title('Choice of the first programing language among developers')
+plt.ylabel('number in millions')
+plt.show()
